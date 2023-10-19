@@ -22,6 +22,9 @@ body {
 header {
     background-color: brown;
 }
+h1{
+    font-family: sans-serif;
+}
 
 main {
     background-color: lightblue;
