@@ -124,8 +124,8 @@ main {
     margin-bottom: 20px;
     text-align: center;
 }
-#benefits-physical>div,
-#benefits-mental>div {
+#benefits-physical > div,
+#benefits-mental > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -256,25 +256,31 @@ main {
 }
 @media screen and (min-width: 1200px) { 
     /* reasons section */
-    #benefits{
-        display: flex;
-        flex-direction: row;
-    }
-    #benefits > div{
-        flex: 1;
-    }
-    #benefits-image{
-        order: 0;
-    }
-    #benefits-mental{
-        order: 1;
-    }
-    #benefits-mental > div{
-       align-self: flex-start;
-    }
-    #benefits-physical > div{
-        align-self: flex-end;
-     }
+  /* Reasons section */
+#benefits {
+    display: flex;
+    flex-direction: row;
+}
+
+#benefits > div {
+    flex: 1;
+}
+
+#benefits-image {
+    order: 0
+}
+
+#benefits-mental {
+    order: 1;
+}
+
+#benefits-mental > div {
+    align-self: flex-start;
+}
+
+#benefits-physical > div {
+    align-self: flex-end;
+}
 
 
 }
