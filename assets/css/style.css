@@ -24,6 +24,9 @@ h1, h2, h3{
     letter-spacing: 2px;
     color: #252525;
 }
+.hidden-heading{
+    display: none;
+}
 
 header {
     background-color: white;
@@ -129,7 +132,7 @@ main {
 #benefits p {
     padding: 0 20px;
 }
-hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
@@ -140,6 +143,7 @@ hr {
     height: 90vw;
     background: url("../img/reasons-image.webp") no-repeat top center/cover;
     margin-bottom: 20px;
+
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
