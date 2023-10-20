@@ -133,6 +133,22 @@ hr {
     margin: 5px 0;
 }
 
+/*hero pic  */
+#circle-cover-bg{
+    width: 90vw;
+    height: 90vw;
+    background: url("../img/reasons-image.webp") no-repeat top center/cover;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* footer */
